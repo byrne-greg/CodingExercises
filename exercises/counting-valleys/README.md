@@ -48,8 +48,10 @@ UDDDUDUU
 
 If we represent \_ as sea level, a step up as /, and a step down as \, Gary's hike can be drawn as:
 
-_/\ _
-\ /
-\/\/
+```
+_/\      _
+   \    /
+    \/\/
+```
 
 He enters and leaves one valley.
