@@ -1,0 +1,22 @@
+{
+  "name": "hackerrank",
+  "private": true,
+  "version": "1.0.0",
+  "description": "coding solutions to hackerrank exercises",
+  "scripts": {
+    "test": "mocha exercises/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byrne-greg/Hackerrank.git"
+  },
+  "author": "Greg Byrne (grebyr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byrne-greg/Hackerrank/issues"
+  },
+  "homepage": "https://github.com/byrne-greg/Hackerrank#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
