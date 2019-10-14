@@ -7,8 +7,8 @@ describe("counting-valleys", () => {
     { args: [12, "DDUUDDUDUUUD"], expected: 2 }
   ];
 
-  tests.forEach((test, index) => {
-    it("testcase " + (index + 1), () => {
+  tests.forEach(test => {
+    it(`testcase - ${test.args}`, () => {
       var res = countValleys.apply(null, test.args);
       assert.equal(res, test.expected);
     });
